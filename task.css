@@ -263,5 +263,5 @@ body {
     display: flex;
     align-items: center;
     color: #0791BE;
-    gap: 10px;
+    padding: none;
 }
