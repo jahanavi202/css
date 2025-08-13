@@ -8,7 +8,7 @@ body {
 .bg-image{
     background-image: url(https://demo.bosathemes.com/html/travele/assets/images/img29.jpg);
     background-size: cover;
-
+ 
 }
 .top-bar {
     color: white;
@@ -17,7 +17,7 @@ body {
     align-items: center;
     padding-left: 10px;
     border-bottom: 1px solid white;
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5);
 }
  .info {
     display: flex;
@@ -42,7 +42,7 @@ body {
     gap: 20px;
     justify-content:space-around;
     padding-right: 300px;
-
+ 
 }
 .top-bar .social-icons a {
     color: white;
@@ -75,7 +75,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 25px 40px;
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.5);
     color: white;
 }
 .logo {
@@ -92,7 +92,7 @@ body {
 .nav-menu {
     display: flex;
     gap: 25px;
-    
+   
 }
 .nav-menu a {
     color: white;
@@ -100,7 +100,7 @@ body {
     font-size: 12px;
     font-weight:bold;
 }
-
+ 
 .nav-menu i:hover{
     transform: rotate(180deg);
     color:#f76c5e;
@@ -156,10 +156,9 @@ body {
     text-transform: uppercase;
 }
 .icons{
-    display: flex;
-    gap:10px;
     padding-bottom:5px;
     color: white;
+    font-size: 15px;
 }
 .content{
     font-size: 12px;
@@ -238,7 +237,7 @@ body {
     transition: background 0.3s ease;
 }
 .form-container button:hover {
-    background: #ff5b4a;
+    background:  #2C75BA;
     transition: background 0.3s ease;
 }
 .destination-section{
@@ -257,12 +256,72 @@ body {
     font-size: 40px;
     color:#101f46;
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
 }
 .icons2{
-    display: flex;
-    align-items: center;
     color: #0791BE;
+    font-size: 15px;
+    text-align: center;
 }
-
-
+.destinations {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.card {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 4px;
+    width: 240px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    display: block;
+    padding: 12px;
+    filter: brightness(50%);
+ 
+}
+.card-content {
+    padding: 15px;
+}
+ h3 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #0d2b45;
+}
+.card p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0074b7;
+    margin: 0;
+}
+.stars {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 15px;
+    color: #fff;
+}
+.card-image {
+    position: relative;
+}
+.more-btn {
+    margin-top: 60px;
+}
+.more-btn a {
+    background: #f76c5e;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+.more-btn a:hover {
+    background: #2C75BA;
+}
